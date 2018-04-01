@@ -106,7 +106,7 @@
 
 <addon id="plugin.video.rsiptv"
        name="[COLOR blue]RS[/COLOR]IPTV"
-       version="0.0.8b"
+       version="0.10"
        provider-name="RSIPTV">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -129,9 +129,9 @@
   </extension>
   
    <extension point="xbmc.addon.repository" name="repository.rsiptv">
-		<info compressed="false">http://rsiptv.amerikanotuga.tech/addon/addons.xml</info>
-		<checksum>http://rsiptv.amerikanotuga.tech/addon/addons.xml.md5</checksum>
-		<datadir zip="true">http://rsiptv.amerikanotuga.tech/addon/zip/</datadir>
+		<info compressed="false">https://raw.githubusercontent.com/rsiptv2018/repo/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/rsiptv2018/repo/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://github.com/rsiptv2018/repo/raw/master/zip/</datadir>
 	</extension>
 	
 	
@@ -146,6 +146,7 @@ em procura livre na internet.</description>
         </assets>
   </extension>
 </addon>
+
 
 
 <addon id="script.module.pair"
@@ -488,7 +489,7 @@ For updates check the readme.
 
 <addon id="plugin.video.vipsecret"
        name="[COLOR gold][B]SECRET[/B][/COLOR][COLOR white][B]TV[/B][/COLOR][COLOR blue][B]VIP[/B][/COLOR]"
-       version="0.0.8"
+       version="0.10"
        provider-name="Team VipSecret">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -521,6 +522,7 @@ em procura livre na internet.</description>
         </assets>
   </extension>
 </addon>
+
 
 <addon id="plugin.video.youtube" name="YouTube" version="5.4.13" provider-name="h0d3nt3uf3l, bromix">
 	<requires>
@@ -609,12 +611,17 @@ em procura livre na internet.</description>
 		<platform>all</platform>
 	</extension>
 </addon>
-<addon id="repository.vipsecrettv" name="[COLOR gold][B].Vip[/B][/COLOR][COLOR white][B]Secret[/B][/COLOR][COLOR blue][B]REPO[/B][/COLOR]" version="1.0.4" provider-name="Vip Secrettv">
+	
+<addon id="repository.vipsecrettv" name="[COLOR gold][B].Vip[/B][/COLOR][COLOR white][B]Secret[/B][/COLOR][COLOR blue][B]REPO[/B][/COLOR]" version="1.0.5" provider-name="Vip Secrettv">
 	<extension point="xbmc.addon.repository" name="Vip Secrettv">
-		<info compressed="false">http://vipsecret.amerikanotuga.tech/repo/addons.xml</info>
-		<checksum>http://vipsecret.amerikanotuga.tech/repo/addons.xml.md5</checksum>
-		<datadir zip="true">http://vipsecret.amerikanotuga.tech/repo/zips/</datadir>
+	
+	
+	<extension point="xbmc.addon.repository" name="repository.rsiptv">
+		<info compressed="false">https://github.com/SecretTvVip/repo/raw/master/addons.xml</info>
+		<checksum>https://github.com/SecretTvVip/repo/raw/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://github.com/SecretTvVip/repo/raw/master/zip/</datadir>
 	</extension>
+	
 	<extension point="xbmc.addon.metadata">
 		<summary>Vip Secrettv</summary>
 		<description>
@@ -624,6 +631,8 @@ Vip Secrettv Repository
 		<platform>all</platform>
 	</extension>
 </addon>
+
+	
 <addon
   id="resource.language.pt_pt"
   version="3.0.10"
@@ -790,28 +799,6 @@ Vip Secrettv Repository
   <extension point='xbmc.python.module'/>
 </addon>
 
-<addon id="script.amaintenance"
-       name="[COLOR red][B]AMERIKANO[/COLOR][COLOR green]TUGA[/B][/COLOR] Maintenance"
-       version="1.1.2"
-       provider-name="AMERIKANO">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
- 	<extension point="xbmc.python.pluginsource" library="default.py">
-		<provides>executable</provides>
-	</extension> 
-  <extension point="xbmc.service" library="service.py" start="startup" />
-  <extension point="xbmc.addon.metadata">
-    <platform>all</platform>
-    <summary>Maintenance</summary>
-    <description>Your one stop tool for clearing your device.</description>
-    <language></language>
-    <license></license>
-    <source></source>
-    <forum></forum>
-    <website></website>
-  </extension>
-</addon>
 
 <addon id="script.video.F4mProxy" name="F4mProxy" version="2.8.7" provider-name="Shani">
 	<requires>
