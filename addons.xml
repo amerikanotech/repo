@@ -106,7 +106,7 @@
 
 <addon id="plugin.video.rsiptv"
        name="[COLOR blue]RS[/COLOR]IPTV"
-       version="0.10"
+       version="0.11"
        provider-name="RSIPTV">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -254,11 +254,12 @@ em procura livre na internet.</description>
 </addon>
 
 
-<addon id="teamtuga4ever.repository" name="Teamtuga4ever Repository" version="2.0" provider-name="Teamtuga4ever">
-	<extension point="xbmc.addon.repository" name="Vip Secrettv">
-		<info compressed="false">http://logan.amerikanotuga.tech/repo/addons.xml</info>
-		<checksum>http://logan.amerikanotuga.tech/repo/addons.xml.md5</checksum>
-		<datadir zip="true">http://logan.amerikanotuga.tech/repo/zip/</datadir>
+<addon id="teamtuga4ever.repository" name="Teamtuga4ever Repository" version="2.1" provider-name="Teamtuga4ever">
+	<extension point="xbmc.addon.repository" name="Teamtuga4ever Repository">
+	
+	<info compressed="false">https://github.com/loganaddon2018/repo/raw/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/loganaddon2018/repo/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://github.com/loganaddon2018/repo/raw/master/zip/</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary>Teamtuga4ever</summary>
@@ -271,7 +272,7 @@ Teamtuga4ever Repository
 </addon>
 
 
-<addon id="plugin.video.loganaddon" name="[B][COLOR red]LOGAN[/COLOR][/B]" version="2.1" provider-name="TeamTuga4ever">
+<addon id="plugin.video.loganaddon" name="[B][COLOR red]LOGAN[/COLOR][/B]" version="2.2" provider-name="TeamTuga4ever">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
@@ -307,7 +308,7 @@ Teamtuga4ever Repository
 
 <addon id="plugin.video.TheOne"
        name="[COLOR blue]The[/COLOR]One"
-       version="0.0.8b"
+       version="0.0.9"
        provider-name="TheOne">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
