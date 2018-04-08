@@ -1,4 +1,4 @@
-<addon id="plugin.program.amerikanopremium.wizard" name="[COLOR gold][B]Amerikano[/B][/COLOR][COLOR Blue]Premium[/COLOR]" version="1.0" provider-name="Amerikano">
+<addon id="plugin.program.amerikanopremium.wizard" name="[COLOR gold][B]Amerikano[/B][/COLOR][COLOR green]Tuga[/COLOR]" version="1.4.3" provider-name="AmerikanoTuga">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -7,9 +7,12 @@
   </extension>
   <extension point="xbmc.service" library="startup.py" start="startup" />
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">[COLOR lightskyblue]Amerikano Premium Wizard[/COLOR]</summary>
-    <description lang="en">Amerikano Premium Wizard will allow you to Kodi/Install Build/Install Apkz And More</description>
+    <summary lang="en">[COLOR gold][B]Amerikano[/B][/COLOR][COLOR green]Tuga[/COLOR]</summary>
+    <description lang="en">AmerikanoTuga Wizard allows you to get access to the latest AmerikanoTuga Custom Builds.</description>
     <platform>all</platform>
-	<news>Thanks To Aftermath For The Base Of The Wizard You Did A Great Job, I Have Made Some Great Changes And More To Come</news>
+	<assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.gif</fanart>
+        </assets>
   </extension>
 </addon>
