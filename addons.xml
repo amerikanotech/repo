@@ -20,7 +20,7 @@
 
 <addon id="plugin.video.AmerikanoTuga"
        name="[COLOR red][B]AMERIKANO[/B][/COLOR][COLOR green][B]TUGA[/B][/COLOR] / UTP-TV"
-       version="0.12"
+       version="0.13"
        provider-name="under">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
